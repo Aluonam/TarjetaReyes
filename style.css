@@ -3,7 +3,11 @@ body{
     background-size: cover;
 }
 .contenedor-principal{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     margin: 1% auto;
     width: 85vw;
     height: 90vh;
