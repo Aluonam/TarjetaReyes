@@ -3,16 +3,22 @@ body{
     background-size: cover;
 }
 .contenedor-principal{
+    background-color: rgb(76, 125, 89);
+    opacity: 80%;
     display: flex;
+    max-width: 600px;
+    min-height: 500px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: 1% auto;
-    width: 85vw;
-    height: 90vh;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 40px;
 }
-.contenedor-desactivado{
+
+.contenedor-regalo{
     text-align: center;
     margin: 1% auto;
     width: 85vw;
@@ -21,10 +27,9 @@ body{
 }
 
 .footer{
-    margin: 1% auto;
+    /* margin: 1% auto; */
     width: 85vw;
     height: 10vh;
-    background-color: inherit;
 }
 
 /* .btn {  */
@@ -70,17 +75,16 @@ body{
     src: url('Lovely_Australia.otf');
 }
 
-form p{
+form h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
 }
 
-p{
+h2{
     color: rgb(10, 3, 39);
-    /* font-style: oblique; */
     text-align: center;
     font-family: 'regaloreyes';
-    font-size: 2em;
+    font-size: 3em;
 }
 
 
