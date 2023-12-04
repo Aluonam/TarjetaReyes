@@ -1,0 +1,96 @@
+body{
+    background-image: url("../Rafa/img/imgfondo2.jpg");
+    background-size: cover;
+}
+.contenedor-principal{
+    text-align: center;
+    margin: 1% auto;
+    width: 85vw;
+    height: 90vh;
+}
+.contenedor-desactivado{
+    text-align: center;
+    margin: 1% auto;
+    width: 85vw;
+    height: 90vh;
+    display: none;
+}
+
+.footer{
+    margin: 1% auto;
+    width: 85vw;
+    height: 10vh;
+    background-color: inherit;
+}
+
+/* .btn {  */
+.btn{
+    margin-top: 8vh;
+    width: 300px;
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: rgb(2, 1, 3);
+    border: 3px solid #48cae4;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+   
+/* .btn::before { */
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #48cae4;
+    transform: translateX(-100%);
+    transition: all 5s;
+    z-index: -1;
+}
+   
+/* .btn:hover::before { */
+.btn:hover::before{
+    transform: translateX(0);
+}
+
+@font-face {
+    font-family: 'regaloreyes';
+    src: url('Lovely_Australia.otf');
+}
+
+form p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+p{
+    color: rgb(10, 3, 39);
+    /* font-style: oblique; */
+    text-align: center;
+    font-family: 'regaloreyes';
+    font-size: 2em;
+}
+
+
+
+@media (max-width: 425px) { /*MOVIL*/
+   .btn{
+       width: 40%;
+   }
+}
+
+@media (max-width: 768px) { /*TABLET*/
+
+}
+
+@media (max-width: 1024px) { /*LAPTOP*/
+
+}
